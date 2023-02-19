@@ -8,13 +8,23 @@ import Education from './Education';
 const Pages = ({ user }) => {
   return (
     <Router>
-      <Routes>
-        
-        <Route exact path="/mariamgul1.github.io" element={<Me user={user} />} />
-        <Route path="/projects/mariamgul1.github.io" element={<Projects user={user} />} />
-        <Route path="/work/mariamgul1.github.io" element={<Work user={user} />} />
-        <Route path="/education/mariamgul1.github.io" element={<Education user={user} />} />
-      </Routes>
+      <Switch>
+      <Route exact path="/">
+          <Me user={user} />
+        </Route>
+        <Route path="/my-portfolio">
+          <Me user={user} />
+        </Route>
+        <Route exact path="/projects">
+          <Projects user={user} />
+        </Route>
+        <Route path="/work">
+          <Work user={user} />
+        </Route>
+        <Route path="/education">
+          <Education user={user} />
+        </Route>
+      </Switch>
     </Router>
   );
 };
