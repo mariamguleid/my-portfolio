@@ -1,8 +1,8 @@
 {
   "name": "my-portfolio-app",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://mariamgul1.github.io/mariamgul1.com",
+  "private": "false",
+  "homepage": "http://mariamgul1.github.io/mariam-gul",
   "dependencies": {
     "@carbon/icons-react": "10.44.0",
     "@carbon/themes": "10.48.0",

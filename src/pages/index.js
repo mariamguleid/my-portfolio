@@ -9,10 +9,11 @@ const Pages = ({ user }) => {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Me user={user} />} />
-        <Route path="/projects" element={<Projects user={user} />} />
-        <Route path="/work" element={<Work user={user} />} />
-        <Route path="/education" element={<Education user={user} />} />
+        
+        <Route exact path="/mariamgul1.github.io" element={<Me user={user} />} />
+        <Route path="/projects/mariamgul1.github.io" element={<Projects user={user} />} />
+        <Route path="/work/mariamgul1.github.io" element={<Work user={user} />} />
+        <Route path="/education/mariamgul1.github.io" element={<Education user={user} />} />
       </Routes>
     </Router>
   );
