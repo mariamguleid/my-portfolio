@@ -2,7 +2,7 @@
   "name": "my-portfolio-app",
   "version": "0.1.0",
   "private": "false",
-  "homepage": "http://mariamgul1.github.io/mariam-gul",
+  "homepage": "http://mariamguleid.github.io/my-portfolio",
   "dependencies": {
     "@carbon/icons-react": "10.44.0",
     "@carbon/themes": "10.48.0",
